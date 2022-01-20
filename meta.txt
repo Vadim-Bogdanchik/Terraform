@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: Vadim Bogdanchik
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDF8Fy2pb8jtYkezyaF4O8L0m4MZCRG3h3nUk7vV5chquF207A0dCC2viPc3+CP6JuI7iAQOdCVS/ZMHwwkAmVvQ/9yXGQ9EXGxGUW9dGiQkjBjangja+cEFuJS1l4XjkkfRjIFl62nBeDZ65KEkJkFPeof4dIb5fK89H4IMO+x5z8Gx2yZDUx3bq1nJ8jswVsgma+HJLPhKJkUDqQEogKVyE+Ik3v2NZTVE/HsH5uXaUJsitbR8qRwEiHsrIBWGOGKAHFMoMP4FdCwHsXsLhcJFFL/XtoslkPcUlvlCKVu+/VoHATgb3ZlceGpFl4K8Cq9NMAexFjogVFhd/su3DuD bogda@HOME
